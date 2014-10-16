@@ -1,7 +1,8 @@
 [
     { 
-        "keys": ["ctrl+shift+m"], "command": "display_math",
-        "keys": ["ctrl+m"], "command": "inline_math"
+        "keys": ["super+m"], "command": "inline_math"
+    },
+    {
+    	"keys": ["super+shift+m"], "command": "display_math"
     }
 ]
-

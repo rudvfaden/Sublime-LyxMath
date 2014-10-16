@@ -39,14 +39,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Default (OSX).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 132,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
 	"command_palette":
@@ -55,16 +47,40 @@
 		"selected_items":
 		[
 			[
+				"rev",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git remo",
+				"Git: Remote"
+			],
+			[
+				"git a",
+				"Git: Add Remote"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git ini",
+				"Git: Init"
+			],
+			[
 				"lowe",
 				"Convert Case: Lower Case"
 			],
 			[
 				"lyx ",
 				"LyX Math: Display Math"
-			],
-			[
-				"rev",
-				"PackageResourceViewer: Open Resource"
 			],
 			[
 				"to",
@@ -125,10 +141,6 @@
 			[
 				"sublime fi",
 				"Sublime Files: Open Navigator"
-			],
-			[
-				"git p",
-				"Git: Push"
 			],
 			[
 				"git stat",
@@ -347,10 +359,6 @@
 				"Set Syntax: TikZ"
 			],
 			[
-				"git sta",
-				"Git: Status"
-			],
-			[
 				"git bl",
 				"Git: Blame"
 			],
@@ -469,8 +477,18 @@
 	],
 	"file_history":
 	[
-		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.py",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Default (Windows).sublime-keymap",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Default (OSX).sublime-keymap",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Default (Linux).sublime-keymap",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/LyxMath.py",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.py",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/support/LaTeX (TikZ).sublime-settings",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/latexing/bib.pyc",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/latexing/cite.pyc",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/InlineMath.py",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/README.md",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/MathLatex/Default.sublime-commands",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/MathLatex/mathlatex.sublime-commands",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/Default.sublime-commands",
@@ -586,12 +604,11 @@
 		"/Users/rudfaden/Dropbox/tale",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/SmartMarkdown/SmartMarkdown.sublime-settings",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
-		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
-		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings"
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -667,98 +684,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Default (OSX).sublime-keymap",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 132,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "json",
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -805,6 +732,10 @@
 	{
 		"height": 100.0
 	},
+	"output.git-init":
+	{
+		"height": 98.0
+	},
 	"output.git-push":
 	{
 		"height": 100.0
@@ -838,7 +769,7 @@
 		[
 			[
 				"",
-				"~/Library/Application Support/Sublime Text 3/Packages/Time/Time.sublime-workspace"
+				"~/Dropbox/PhD/information-and-care/information-and-care.sublime-project"
 			]
 		],
 		"width": 380.0

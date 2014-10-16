@@ -15,16 +15,12 @@ class DisplayMathCommand(sublime_plugin.TextCommand):
             	# If empty/space/tabs insert only one new line. 
             	# else inser two
             	if (not line_contents or line_contents.isspace()):
-            		self.view.run_command("insert_snippet",{"contents": "\n\\[\n\t$1\n\\]"})
+            		self.view.run_command("insert_snippet",{"contents": "\n\\[\n\t$1\n\\]\n\n$2"})
             	else:
-            		self.view.run_command("insert_snippet",{"contents": "\n\n\\[\n\t$1\n\\]"})
+            		self.view.run_command("insert_snippet",{"contents": "\n\n\\[\n\t$1\n\\]\n\n$2"})
+            break # Break the loop to avoid double insertion
 
 class InlineMathCommand(sublime_plugin.TextCommand):
-	def run(self, edit):
-		# Walk through each region in the selection
-		for region in self.view.sel():
-			# Only interested in empty regions, otherwise they may span multiple  
-            # lines, which doesn't make sense for this command.
-			if region.empty():
-				self.view.run_command("insert_snippet",{"contents": "\\$$1\\$"})
+    def run(self, edit):
+        self.view.run_command("insert_snippet",{"contents": "\\$$1\\$"})
 
