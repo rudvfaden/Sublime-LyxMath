@@ -1,0 +1,8 @@
+[
+    { 
+        "keys": ["super+alt+m"], "command": "display_math",
+        "keys": ["ctrl+m"], "command": "inline_math"
+    }
+]
+
+

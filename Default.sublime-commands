@@ -1,0 +1,4 @@
+[
+	{ "caption": "LyX Math: Display Math", "command": "display_math" },
+	{ "caption": "LyX Math: Inline Math", "command": "inline_math" },
+]
