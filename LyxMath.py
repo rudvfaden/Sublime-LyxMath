@@ -22,5 +22,8 @@ class DisplayMathCommand(sublime_plugin.TextCommand):
 
 class InlineMathCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        self.view.run_command("insert_snippet",{"contents": "\\$$1\\$"})
+        for region in self.view.sel():
+            if region.empty():
+                line_point = self.view.substr(region)
+                self.view.run_command("insert_snippet",{"contents": "\\$$1\\$"})
 
