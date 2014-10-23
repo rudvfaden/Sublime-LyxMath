@@ -1,19 +1,26 @@
 [
-{
-    "id": "tools",
-    "children":
-    [
     {
-    	"caption": "LyX Math",
-        "id": "lyx_math",
+        "id": "tools",
         "children":
         [
-        	{ "command": "display_math" },
-        	{ "command": "inline_math" },
-            { "command": "align_math" }
+
+        {
+            "id": "packages",
+            "children":
+            [
+                   {
+                "caption": "LyX Math",
+                "id": "lyx_math",
+                "children":
+                [
+                    { "command": "display_math" },
+                    { "command": "inline_math" },
+                    { "command": "align_math" }
+                ]
+            }
+            ]
+        }
         ]
-    	}
-    ]
-}
+    }
 ]
 
