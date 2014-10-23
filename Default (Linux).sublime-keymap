@@ -1,5 +1,47 @@
 [
-    {"keys": ["super+m"], "command": "inline_math"},
-    {"keys": ["super+shift+m"], "command": "display_math"},
-    {"keys": ["super+shift+a"], "command": "align_math"}
+	// Inline math
+    {"keys": ["super+m"],
+    "command": "insert_snippet",
+    "args": {
+    	"contents": "\\($SELECTION$1\\)"},
+    "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
+    {"keys": ["super+shift+m"],
+    "command": "display_math",
+    "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
+    {"keys": ["super+shift+a"],
+    "command": "align_math",
+        "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
+    	//Latex math
+    // Environment
+	{"keys": ["ctrl+e"],
+	"command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/environment.sublime-snippet"},
+    "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
+
+	{"keys": ["ctrl+shift+e"],
+	"command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/enviroment-w-comment.sublime-snippet"},
+    "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
+    // Math space
+    {"keys": ["ctrl+space"],
+    "command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/math-space.sublime-snippet"},
+    "context": [
+            {"key": "selection_empty", "match_all": true, "operand": true, "operator": "equal"},
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
+
 ]

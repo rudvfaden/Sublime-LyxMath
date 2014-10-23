@@ -15,9 +15,9 @@ class DisplayMathCommand(sublime_plugin.TextCommand):
             	# If empty/space/tabs insert only one new line.
             	# else inser two
             	if (not line_contents or line_contents.isspace()):
-            		self.view.run_command("insert_snippet",{"contents": "\\[\n\t$1\n\\]\n\n$2"})
+            		self.view.run_command("insert_snippet",{"contents": "\\[\n\t$SELECTION$1\n\\]\n\n$2"})
             	else:
-            		self.view.run_command("insert_snippet",{"contents": "\n\\[\n\t$1\n\\]\n$2"})
+            		self.view.run_command("insert_snippet",{"contents": "\n\\[\n\t$SELECTION$1\n\\]\n$2"})
             break # Break the loop to avoid double insertion
 
 class AlignMathCommand(sublime_plugin.TextCommand):
@@ -35,12 +35,9 @@ class AlignMathCommand(sublime_plugin.TextCommand):
                 # If empty/space/tabs insert only one new line.
                 # else inser two
                 if (not line_contents or line_contents.isspace()):
-                    self.view.run_command("insert_snippet",{"contents": "\\begin{align}\n\t$1\n\\end{align}\n$2"})
+                    self.view.run_command("insert_snippet",{"contents": "\\begin{align}\n\t$SELECTION$1\n\\end{align}\n$2"})
                 else:
-                    self.view.run_command("insert_snippet",{"contents": "\n\\begin{align}\n\t$1\n\\end{align}\n$2"})
+                    self.view.run_command("insert_snippet",{"contents": "\n\\begin{align}\n\t$SELECTION$1\n\\end{align}\n$2"})
             break # Break the loop to avoid double insertion
 
-class InlineMathCommand(sublime_plugin.TextCommand):
-    def run(self, edit):
-        self.view.run_command("insert_snippet",{"contents": "\\$$1\\$"})
 
