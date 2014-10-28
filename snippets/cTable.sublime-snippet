@@ -1,0 +1,20 @@
+<snippet> 
+	<content><![CDATA[ 
+\ctable[ 
+caption=${1:Table Title} 
+label=tab:${2:tblname} 
+]{${3:ccc}}{ 
+\tnote[]{This note does not have a corresponding mark} 
+\tnote[a]{This note does have a mark} 
+}{ 
+\toprule 
+~ & Cooperate & Defect \\ %
+\midrule % 
+midrules are useful for tables with a clear heading row Cooperate & (8,8) & (0,10) \\
+Defect & (10,0) & (3,3) \\ 
+\bottomrule 
+} 
+]]></content> 
+	<tabTrigger>ctab</tabTrigger> 
+	<scope>text.tex.latex</scope> 
+</snippet>
