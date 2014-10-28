@@ -8,27 +8,29 @@
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
+    // Display math
    {"keys": ["super+shift+m"],
     "command": "display_math",
         "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
+    // Align math
     {"keys": ["super+shift+a"],
     "command": "align_math",
         "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
-    	//Latex math
-    // Environment
+
+    // New Environment
 	{"keys": ["ctrl+e"],
 	"command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/environment.sublime-snippet"},
     "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
-
+    // New environment with comment
 	{"keys": ["ctrl+shift+e"],
 	"command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/enviroment-w-comment.sublime-snippet"},
     "context": [
@@ -43,5 +45,11 @@
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
-
+ 	// Bold math
+ 	{"keys": ["super+alt+b"],
+    "command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/boldMath.sublime-snippet"},
+        "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    },
 ]
