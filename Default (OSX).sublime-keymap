@@ -25,21 +25,21 @@
 
     // New Environment
 	{"keys": ["ctrl+e"],
-	"command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/environment.sublime-snippet"},
+	"command": "insert_snippet","args": {"name": "Packages/Sublime-LyxMath/snippets/environment.sublime-snippet"},
     "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
     // New environment with comment
 	{"keys": ["ctrl+shift+e"],
-	"command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/enviroment-w-comment.sublime-snippet"},
+	"command": "insert_snippet","args": {"name": "Packages/Sublime-LyxMath/snippets/enviroment-w-comment.sublime-snippet"},
     "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
     },
     // Math space
     {"keys": ["ctrl+space"],
-    "command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/math-space.sublime-snippet"},
+    "command": "insert_snippet","args": {"name": "Packages/Sublime-LyxMath/snippets/math-space.sublime-snippet"},
     "context": [
             {"key": "selection_empty", "match_all": true, "operand": true, "operator": "equal"},
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
@@ -47,7 +47,7 @@
     },
  	// Bold math
  	{"keys": ["super+alt+b"],
-    "command": "insert_snippet","args": {"name": "Packages/User/latex-snippets/boldMath.sublime-snippet"},
+    "command": "insert_snippet","args": {"name": "Packages/Sublime-LyxMath/snippets/boldMath.sublime-snippet"},
         "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
