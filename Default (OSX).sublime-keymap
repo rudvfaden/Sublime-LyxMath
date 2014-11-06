@@ -1,9 +1,7 @@
 [
 	// Inline math
     {"keys": ["super+m"],
-    "command": "insert_snippet",
-    "args": {
-    	"contents": "\\($SELECTION$1\\)"},
+    "command": "insert_snippet","args": {"contents": "\\($SELECTION$1\\)"},
     "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
