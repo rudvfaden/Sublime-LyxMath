@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\boldmath{$1$SELECTION}
+\mathbf{$1$SELECTION}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bm</tabTrigger>

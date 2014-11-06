@@ -40,21 +40,28 @@
 	"buffers":
 	[
 		{
-			"contents": "Remote:   origin @ https://github.com/rudvfaden/Sublime-LyxMath.git\nLocal:    master ~/Library/Application Support/Sublime Text 3/Packages/LyxMath\nHead:     4740dea Pulled from remote\n\n\nChanges:\n	Modified   LyxMath.sublime-workspace\n	Deleted    snippets/commenttitle.sublime-snippet\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"contents": "Remote:   origin @ git@github.com:rudvfaden/Sublime-LyxMath.git\nLocal:    master ~/.config/sublime-text-3/Packages/Sublime-LyxMath\nHead:     7809c61 Moved snippets to project\n\n\nStashes:\n	0: On master: never mind\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 1045,
+				"buffer_size": 1018,
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 				"line_ending": "Unix",
-				"name": "*git-status*: LyxMath",
+				"name": "*git-status*: Sublime-LyxMath",
 				"read_only": true,
 				"scratch": true
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "Default (OSX).sublime-keymap",
 			"settings":
 			{
 				"buffer_size": 1853,
+=======
+			"settings":
+			{
+				"buffer_size": 0,
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 				"line_ending": "Unix"
 			}
 		}
@@ -66,6 +73,7 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"git fe",
 				"Git: Fetch"
 			],
@@ -103,59 +111,70 @@
 			],
 			[
 				"git pu",
+=======
+				"g pus",
+				"Git: Push"
+			],
+			[
+				"packa re op",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packa rev",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"s lat",
+				"Set Syntax: LaTeXing"
+			],
+			[
+				"git p",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 				"Git: Pull"
 			],
 			[
-				"git remo ",
-				"Git: Remote"
+				"git sta",
+				"Git: Status"
 			],
 			[
-				"g p",
+				"git pul",
 				"Git: Pull"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"pull",
+				"Package Syncing: Pull Settings"
 			],
 			[
 				"g push",
 				"Git: Push"
 			],
 			[
-				"gstat",
-				"Git: Status"
+				"se lat",
+				"Set Syntax: LaTeXing"
 			],
 			[
-				"git m",
-				"Git: Merge"
-			],
-			[
-				"git ",
-				"Git: Checkout"
-			],
-			[
-				"git b",
-				"Git: Checkout New Branch"
-			],
-			[
-				"git mer",
-				"Git: Merge"
-			],
-			[
-				"git bra",
-				"Legit: Branches"
-			],
-			[
-				"gpush",
-				"Git: Push"
-			],
-			[
-				"bran",
-				"Git: Checkout New Branch"
+				"git r",
+				"Git: Remote"
 			],
 			[
 				"g stat",
 				"Git: Status"
 			],
 			[
-				"git c",
-				"Git: Commit"
+				"pa re o",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"g p",
+				"Git: Pull"
+			],
+			[
+				"g st",
+				"Git: Stash"
 			],
 			[
 				"rev",
@@ -172,10 +191,6 @@
 			[
 				"git add",
 				"Git: Quick Add"
-			],
-			[
-				"git sta",
-				"Git: Status"
 			],
 			[
 				"git ini",
@@ -470,6 +485,10 @@
 				"Package Control: Install Package"
 			],
 			[
+				"git ",
+				"Git: Push"
+			],
+			[
 				"git add li",
 				"SublimeGit: Add License"
 			],
@@ -560,10 +579,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath"
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/snippets"
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/snippets/commenttitle.sublime-snippet",
 		"/Users/rudfaden/Desktop/test.tmTheme",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/LyxMath.py",
@@ -572,10 +593,29 @@
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/rudfaden/Dropbox/PhD/Notes/notes in measure in intergral theory.tex",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+=======
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/Default (Linux).sublime-keymap",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/LyxMath.py",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/Default (OSX).sublime-keymap",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/Default (Windows).sublime-keymap",
+		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/Default (Linux).sublime-keymap",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/latex-snippets/boldMath.sublime-snippet",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/README.md",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/LyxMath.sublime-workspace",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/.gitignore",
+		"/home/rudfaden/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath/Main.sublime-menu",
+		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/Main.sublime-menu",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Default (Windows).sublime-keymap",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Default (OSX).sublime-keymap",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Default (Linux).sublime-keymap",
+<<<<<<< HEAD
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/Main.sublime-menu",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/README.md",
+=======
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/LyxMath.py",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.py",
@@ -583,6 +623,7 @@
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/latexing/bib.pyc",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/latexing/cite.pyc",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/InlineMath.py",
+		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath/README.md",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/MathLatex/Default.sublime-commands",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/MathLatex/mathlatex.sublime-commands",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LaTeXing/Default.sublime-commands",
@@ -629,7 +670,6 @@
 		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
 		"/home/rudfaden/Dropbox/PhD/information-and-care/fig/increasing-diff-proff.tikz",
 		"/home/rudfaden/Dropbox/PhD/information-and-care/Main/file.synctex (rud-HP's conflicted copy 2014-10-14).gz",
-		"/home/rudfaden/.config/sublime-text-3/Packages/LaTeXing/Default (Linux).sublime-keymap",
 		"/home/rudfaden/.config/sublime-text-3/Packages/User/Default.sublime-keymap",
 		"/home/rudfaden/Downloads/file.html",
 		"/home/rudfaden/Downloads/draft2.md",
@@ -686,12 +726,16 @@
 		"/Users/rudfaden/Dropbox/PhD/information-and-care/fig/fig-expectation.tex.preview.pdf",
 		"/Users/rudfaden/Dropbox/PhD/information-and-care/fig/t-transformation.tex.preview.pdf",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+<<<<<<< HEAD
 		"/Users/rudfaden/Dropbox/PhD/information-and-care/_region_.tex",
 		"/Users/rudfaden/Dropbox/PhD/information-and-care/draft2.lyx~",
 		"/Users/rudfaden/Dropbox/PhD/information-and-care/#draft2.tex#",
 		"/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/Stata Enhanced/Stata Enhanced (OSX).sublime-settings",
 		"/Users/rudfaden/Downloads/2014.csv",
 		"/Users/rudfaden/Dropbox/tale2.md"
+=======
+		"/Users/rudfaden/Dropbox/PhD/information-and-care/_region_.tex"
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 	],
 	"find":
 	{
@@ -710,7 +754,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"seta",
+=======
+			"Packages/User/latex-snippets",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 			"super+m",
 			"super+shift+m",
 			"vi_move_by_characters_in_line",
@@ -772,7 +820,11 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 1,
+=======
+			"selected": 0,
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 			"sheets":
 			[
 				{
@@ -780,15 +832,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 1045,
+=======
+						"buffer_size": 1018,
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								895,
 								895
+=======
+								186,
+								186
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 							]
 						],
 						"settings":
@@ -799,6 +860,7 @@
 							"__vi_external_disable": true,
 							"bh_regions":
 							[
+<<<<<<< HEAD
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -824,6 +886,13 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+=======
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -839,6 +908,7 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+<<<<<<< HEAD
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -849,15 +919,56 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+=======
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
+<<<<<<< HEAD
 								"bh_tag_content"
+=======
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/base16-eighties.dark (SL).tmTheme",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray (SL).tmTheme",
 							"draw_white_space": "none",
-							"git_repo": "/Users/rudfaden/Library/Application Support/Sublime Text 3/Packages/LyxMath",
+							"git_repo": "/home/rudfaden/.config/sublime-text-3/Packages/Sublime-LyxMath",
 							"git_status": true,
 							"git_view": "status",
 							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
@@ -868,7 +979,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 1,
+=======
+					"stack_index": 0,
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 					"type": "text"
 				},
 				{
@@ -895,6 +1010,24 @@
 							"WordCountSyntax": "json",
 							"bh_regions":
 							[
+<<<<<<< HEAD
+=======
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -905,6 +1038,7 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+<<<<<<< HEAD
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -915,31 +1049,50 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+=======
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+<<<<<<< HEAD
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+=======
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+<<<<<<< HEAD
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+=======
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+<<<<<<< HEAD
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -950,6 +1103,13 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content"
+=======
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Low-Profile Gray.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
@@ -960,7 +1120,11 @@
 						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 0,
+=======
+					"stack_index": 1,
+>>>>>>> 5e09b3be15afb6aa786aec18c5ecf4728f7e904d
 					"type": "text"
 				}
 			]
@@ -1005,10 +1169,6 @@
 	{
 		"height": 0.0
 	},
-	"output.git-checkout":
-	{
-		"height": 98.0
-	},
 	"output.git-commit":
 	{
 		"height": 100.0
@@ -1021,13 +1181,9 @@
 	{
 		"height": 98.0
 	},
-	"output.git-merge":
-	{
-		"height": 98.0
-	},
 	"output.git-pull":
 	{
-		"height": 98.0
+		"height": 110.0
 	},
 	"output.git-push":
 	{
@@ -1083,7 +1239,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 165.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
