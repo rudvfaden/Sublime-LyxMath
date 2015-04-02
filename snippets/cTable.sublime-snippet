@@ -17,4 +17,5 @@ Defect & (10,0) & (3,3) \\
 ]]></content> 
 	<tabTrigger>ctab</tabTrigger> 
 	<scope>text.tex.latex</scope> 
+	<description>ctable</description>
 </snippet>
