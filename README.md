@@ -1,12 +1,12 @@
-Sublime-LyxMath
+LyxMath
 ===============
 
-A Plugin to add a Lyx Display and Inline Math shortcuts to Sublime Text
+A Plugin to add a Lyx inspired math keyboard shortcuts to Sublime Text for use with LaTeX.
 
-- `super+shift+m` will insert Display math
-- `super+shift+a` will insert Align math
-- `super+m` will inset Inline Math
-- `ctrl+e` New environment
-- `ctrl+shift+e` New environment with comment
-- `ctrl+space` math space `\,`
-- `super+alt+b` bold math
+- <kbd>super+shift+m</kbd> will insert Display math
+- <kbd>super+shift+a</kbd> will insert Align math
+- <kbd>super+m</kbd> will inset Inline Math
+- <kbd>ctrl+e</kbd> New environment
+- <kbd>ctrl+shift+e</kbd> New environment with comment
+- <kbd>ctrl+space</kbd> math space `\,`
+- <kbd>super+alt+b</kbd> bold math
