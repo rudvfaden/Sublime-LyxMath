@@ -11,5 +11,5 @@
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.tex.latex</scope>
 	  <!-- Optional: Description to show in the menu -->
-    <description>Enviroment with comment</description>
+    <description>enviroment with comment</description>
 </snippet>
